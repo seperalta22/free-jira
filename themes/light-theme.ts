@@ -18,4 +18,14 @@ export const lightTheme = createTheme({
 			main: '#f44336',
 		},
 	},
+	components: {
+		MuiAppBar: {
+			styleOverrides: {
+				root: {
+					backgroundColor: '#4a148c',
+					elevation: 0,
+				},
+			},
+		},
+	},
 });
